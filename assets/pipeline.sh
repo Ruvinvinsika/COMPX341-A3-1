@@ -17,7 +17,7 @@ else
     exit
 fi
 
-echo "(2) commit and pushing to repo"
+
 message="$1"
 if [[ -z "${message// }" ]]
     then
@@ -27,7 +27,7 @@ if [[ -z "${message// }" ]]
 
 
 fi
-
+echo "(2) commit and pushing to repo"
 cd ..
 git add .
 git commit -m "$message"
