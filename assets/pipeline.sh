@@ -22,6 +22,7 @@ message="$1"
 if [[ -z "${message// }" ]]
     then
         message=$"COMPX341-22A-A3 Commiting from CI/CD Pipeline"
+        
     
 
 fi
